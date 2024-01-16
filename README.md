@@ -1,8 +1,10 @@
-# PostgresqlVerticaProject
+## PostgresqlVerticaProject
 
-<b>Технологии:</b> PostgreSQL, Apache Airflow, Vertica 
-Цель: реализовать ежедневную инкрементальную загрузку данных из PostgreSQL в Vertica с помощью Apache Airflow
-Задачи:
+### Технологии:
+PostgreSQL, Apache Airflow, Vertica 
+### Цель: 
+Реализовать ежедневную инкрементальную загрузку данных из PostgreSQL в Vertica с помощью Apache Airflow. Дополнительно создать витрину данных для аналитиков
+### Задачи:
 1. Спроектировать слой сырых данных и подготовить таблицы в Vertica (stage), настроить сегментацию таблиц в Vertica
 2. Подготовить витрину с агрегацией по датам (mart)
 3. Написать скрипт витрины
